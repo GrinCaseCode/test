@@ -1,0 +1,52 @@
+@font-face {
+font-family: 'Prata';
+src: url('../fonts/Prata-Regular.eot');
+src: url('../fonts/Prata-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Prata-Regular.woff') format('woff'),
+url('../fonts/Prata-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+	font-family: "SFUIDisplay-Regular";
+	src: url("../fonts/SFUIDisplay-Regular.eot");
+	src: url("../fonts/SFUIDisplay-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/SFUIDisplay-Regular.woff") format("woff"),
+	url("../fonts/SFUIDisplay-Regular.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "SFUIDisplay-Bold";
+	src: url("../fonts/SFUIDisplay-Bold.eot");
+	src: url("../fonts/SFUIDisplay-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/SFUIDisplay-Bold.woff") format("woff"),
+	url("../fonts/SFUIDisplay-Bold.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+    font-family: "SFUIDisplay-light";
+    src:  url('../fonts/SFUIDisplay-Light.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Light.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "SFUIDisplay-Medium";
+    src:  url('../fonts/SFUIDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Medium.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+@font-face {
+	font-family: "BebasNeueRegular";
+	src: url("../fonts/BebasNeueRegular.eot");
+	src: url("../fonts/BebasNeueRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BebasNeueRegular.woff") format("woff"),
+	url("../fonts/BebasNeueRegular.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
