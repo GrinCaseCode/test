@@ -681,18 +681,25 @@ background-size: 102% 102%;
 .countdown-amount {
 	width: 77px;
 	height: 107px;
-	line-height: 107px;
 		color: #fdf5ea;
 font-family: "BebasNeueRegular";
-text-align: center;
+display: -webkit-inline-flex;
+display: -moz-inline-flex;
+display: -ms-inline-flex;
+display: -o-inline-flex;
+display: inline-flex;
+align-items: center;
+justify-content: center;
 font-size: 53px;
 margin-bottom: 20px;
 padding-bottom: 0px;
-display: inline-block;
 background-image: url(../img/bg_clock.png);
 background-repeat: no-repeat;
 background-position: center;
 position: relative;
+}
+.countdown-wrap_mob .countdown-amount {
+	padding-top: 10px;
 }
 .countdown-amount::after {
 	position: absolute;
