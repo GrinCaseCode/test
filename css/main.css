@@ -1049,15 +1049,15 @@ position: relative;
     transition-delay: 0.1s;
 }
 .sandwich.active .sw-topper {
-    top: 9px;
+    top: 14px;
     transform: rotate(45deg);
 }
 .sandwich.active .sw-bottom {
     opacity: 0;
 }
 .sandwich.active .sw-footer {
-    top:5px;
+    top:10px;
     width: 30px;
     transform: rotate(-45deg);
 }
-/*End Sandwich*/
+/*End Sandwich*/ 
