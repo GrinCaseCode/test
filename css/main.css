@@ -681,6 +681,7 @@ background-size: 102% 102%;
 .countdown-amount {
 	width: 77px;
 	height: 107px;
+	line-height: 107px;
 		color: #fdf5ea;
 font-family: "BebasNeueRegular";
 display: -webkit-inline-flex;
