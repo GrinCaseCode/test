@@ -243,6 +243,20 @@
 	.clients {
 		padding-bottom: 55px;
 	}
+	.wrapper {
+		background-image: none;
+	}
+	.content-page {
+		padding: 0;
+	}
+	.title-section_middle {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.clients-page .title-section_middle {
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -315,6 +329,19 @@
 .present {
 	padding-top: 20px;
 }
+.head-catalog {
+	display: block;
+}
+.head-catalog__right {
+	margin-top: 15px;
+}
+.clients-brand-img {
+    width: 31%;
+    }
+    .title-section_middle {
+    	font-size: 26px;
+    	line-height: 32px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -383,6 +410,22 @@
     .footer__title {
     	font-size: 15px;
     }
+    .catalog-item {
+    	padding-left: 15px;
+    	padding-right: 15px;
+    }
+    .catalog-item-price {
+    font-size: 25px;
+    padding-right: 32px;
+}
+.clients-brand-img {
+    width: 33%;
+    padding: 0 6px;
+    margin: 15px 0;
+}
+.clients-brand {
+	margin-bottom: 0;
+}
 }
 
 /* Custom, iPhone Retina */

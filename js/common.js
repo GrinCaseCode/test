@@ -1,8 +1,5 @@
 $(document).ready(function() {
 
-
-
-
 	//кнопка sandwich
 	$(".btn_nav").click(function() {
 		$(".sandwich").toggleClass("active");
@@ -11,13 +8,26 @@ $(document).ready(function() {
 		} else {
 			$(".menu-mobile").slideUp(200);
 		}
-		
 	});
 
 	$(".menu-mobile a").click(function() {
 			$(".menu-mobile").slideUp(200);
 			$(".sandwich").removeClass("active");
 		});
+
+	//кнопка sandwich
+	$(".wrap-link-more a").click(function(e) {
+		e.preventDefault();
+		if ($(".hidden-text-catalog").is(":hidden")) {
+			$(".hidden-text-catalog").slideDown(200);
+			$(".article-more").addClass("active");
+			$(this).html("Скрыть");
+		} else {
+			$(".hidden-text-catalog").slideUp(200);
+			$(this).html("Читать далее");
+			$(".article-more").removeClass("active");
+		}
+	});
 
  /*высота блока по экрану*/
     function heightDetect() {
