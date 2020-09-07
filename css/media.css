@@ -358,6 +358,12 @@
 .card {
 	padding-bottom: 30px;
 }
+.list-sertificats li {
+    width: 32%;
+}
+.item-sertificat {
+	padding: 5px;
+}
 }
 @media only screen and (max-width : 576px) {
 .card-gramms-items {
@@ -484,6 +490,42 @@
 }
 .clients-brand {
 	margin-bottom: 0;
+}
+.list-sertificats li {
+    width: 48%;
+}
+.item-sertificat {
+	margin-bottom: 10px;
+}
+.title-block {
+	font-size: 20px;
+}
+.sertificats .title-block {
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+.sertificats .content-page {
+	padding-top: 15px;
+}
+.sertificats {
+    padding-bottom: 15px;
+}
+.feedback-name {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.feedback-text__text {
+	font-size: 14px;
+	line-height: 21px;
+}
+.feedback-item {
+	padding: 20px 15px;
+}
+.feedback-link {
+    margin-right: 10px;
+    }
+    .feedback-text {
+    max-height: 227px;
 }
 }
 

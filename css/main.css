@@ -1817,3 +1817,137 @@ letter-spacing: 0.14px;
 .card .content-page {
 	padding-bottom: 30px;
 }
+/*sertificats*/
+.title-block {
+	color: #fdf5ea;
+font-family: Prata;
+font-size: 24px;
+}
+.list-sertificats {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.list-sertificats li {
+	width: 29%;
+}
+.item-sertificat {
+	display: inline-block;
+	margin-bottom: 45px;
+	padding: 15px;
+border: 1px solid #e1a957;
+background-color: #201f1e;
+}
+.item-sertificat img {
+	max-width: 100%;
+}
+.sertificats .title-block {
+	padding-bottom: 20px;
+}
+.sertificats {
+	padding-bottom: 40px;
+}
+.sertificats .content-page {
+	padding-top: 30px;
+}
+.fancybox-skin {
+	padding: 0 !important;
+}
+/* feedback */
+
+.feedback-block {
+	background-color: #191818;
+	padding: 27px 20px 0px 24px;
+}
+
+.title-section__feedback {
+	font-size: 30px;
+	margin: 0px 0px 20px 0px;
+}
+.row_reviews > div {
+	margin-bottom: 25px;
+}
+.feedback-item {
+	min-height: 100%;
+	padding: 30px;
+	padding-right: 18px;
+	padding-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	background-color: #201f1e;	
+}
+.feedback-name {
+	color: #e1a957;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0px 0px 26px 0px;
+}	
+
+.feedback-text {
+	width: 100%;
+	max-height: 220px;
+	overflow: auto;
+	position: relative;
+	font-family: "SFUIDisplay-Light";
+	font-size: 16px;
+	font-weight: 300;
+	color: #fdf5ea;
+	line-height: 24px;
+	letter-spacing: 0.16px;
+	margin: 0px 22px 35px 0px;
+}
+.feedback-text::-webkit-scrollbar {
+width: 4px;
+height: 100%;
+border-radius: 2px;
+background-color: #191818;
+}
+.feedback-text::-webkit-scrollbar-thumb {
+width: 4px;
+border-radius: 2px;
+background-color: #e1a957;
+}
+.feedback-link {
+	margin-right: 25px;
+	display: inline-flex;
+	margin-left: auto;
+	margin-top: auto;
+	align-items: center;
+	color: #e1a957;
+	font-size: 14px;
+	font-weight: 400;
+	transition: all .5s;
+}
+.feedback-link img {
+	margin-left: 19px;
+}
+.feedback-link span {
+	border-bottom: 1px transparent solid;
+	transition: all 0.3s;
+}
+.feedback-link:hover span {
+border-color: #e1a957;
+}
+
+
+/* jscroll */
+
+ .jspVerticalBar {
+	width: 4px;
+	border-radius: 2px;
+	background-color: #191818;
+ }
+ .jspTrack {
+	width: 4px;
+	border-radius: 2px;
+	background-color: #191818;
+ }
+ .jspDrag {
+ 	width: 4px;
+	border-radius: 2px;
+	background-color: #e1a957;
+	 cursor: pointer;
+ }
+ .feedback-text__text {
+ 	padding-right: 15px;
+ }
