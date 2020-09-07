@@ -1115,6 +1115,7 @@ position: relative;
 }
 
 .breadcumbs li {
+	color: #e1a957;
 	margin: 0px 5px 0px 0px;
 }
 
@@ -1521,4 +1522,298 @@ position: absolute;
 }
 .present_client {
 	padding-top: 20px;
+}
+
+
+/* card */
+
+.card-big__block {
+	background-color: #191818;
+	padding: 0px 34px 32px 28px;
+	
+}
+
+.card-breadcumbs {
+	font-family: "SFUIDisplay-light";
+	font-weight: 300;
+	font-size: 13px;
+	margin: 0px;
+	margin: 18px 0px 28px 0px;
+}
+
+.card-block__basket {
+	padding: 0px 0px 0px 5px;
+}
+
+.card-img {
+	width: 100%;
+	padding: 20px ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #222222;
+	height: 423px;
+}
+
+.card-img img {
+	max-width: 100%;
+	max-height: 100%;
+	
+}
+	.card-title {
+		font-size: 30px;
+		line-height: 39px;
+		padding: 0;
+		margin: -10px 0px 40px 0px;
+	}
+.card-description {
+	position: relative;		
+}
+.card-description:after {
+	position: absolute;
+    display: block;
+    content: " ";
+    left: 100%;
+    bottom: 0;
+    width: 700px;
+    height: 1px;
+	background-color: #222222;
+}
+.card-items {
+	position: relative;
+	color: #fdf5ea;
+	font-family: "SFUIDisplay-light";
+	font-size: 14px;
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 302px;
+	overflow: hidden;
+	padding: 0px 2px 0px 0px;
+	margin: 0px 0px 29px 0px;
+}
+.card-items:last-child {
+	margin: 0px 0px 0px 0px;
+}
+.card-value {
+	position: relative;
+	z-index: 1;
+	font-family: "SFUIDisplay-Medium";
+	font-weight: 500;
+	letter-spacing: 0.14px;
+    background-color: #191818;
+}
+.card-number {
+	color: #fdf5ea;
+font-size: 14px;
+font-weight: 300;
+line-height: 21px;
+	font-family: "SFUIDisplay-light";
+    margin: 33px 0px 13px 0px;
+}
+.quantity input {
+	position: relative;
+	z-index: 1;
+	color: #e1a957;
+	font-family: "Prata";
+	font-size: 16px;
+	font-weight: 400;
+    border: none;
+	height: 35px;
+	border-radius: 18px;
+	background-color: #222222; 
+} 
+.quantity {
+	position: relative;
+	display: inline-block;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button
+  {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type=number]
+  {
+    -moz-appearance: textfield;
+  }
+  
+  .quantity input {
+      
+    outline: none;  
+    width: 100px;
+    height: 35px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-radius: 18px;
+    background-color: #222222;
+    border: none;
+  }
+  
+  .quantity-nav {
+	max-width: 100px;
+	height: 35px;
+	border-radius: 18px;
+	background-color: #222222;
+    position: relative;
+  }
+  .quantity-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    position: relative;
+    cursor: pointer;
+    border-left: 1px solid #eee;
+       width: 27px;
+	height: 27px;
+	background-color: #353535;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    text-align: center;
+    color: #333;
+    right: 4px;
+    font-size: 16px;
+    z-index: 2;
+    margin: 0;
+    background-color: #353535;
+    border: none;
+    color: #e1a957;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  
+   .quantity-button.quantity-down {
+	left: 4px;
+	right: auto;
+  }
+.card-gramms-items {
+	padding: 0 20px;
+	margin: 59px 0px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: "SFUIDisplay-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	color: #fdf5ea;
+}
+
+.card-gramms-items input[type=radio] {
+	display: none;
+}
+.card-gramms-items label {
+		width: 45px;
+	height: 45px;
+	margin: 0 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 50%;
+	user-select: none;
+	transition: all 0.3s;
+}
+.row_bottom-card {
+	margin-top: 20px;
+	align-items: center;
+}
+/* Checked */
+.card-gramms-items input[type=radio]:checked + label {
+	background-color: #353535;
+	
+}
+
+.card-gramms-items input[type=radio]:disabled + label {
+	background: none;
+}
+.card-price-block {
+	position: relative;
+	
+}
+.card-price-text {
+	color: #fdf5ea;
+font-family: "SFUIDisplay-Light";
+font-size: 14px;
+font-weight: 300;
+letter-spacing: 0.14px;
+margin: 0px 0px 13px 0px;
+}
+.card-price {
+	color: #fdf5ea;
+	font-family: "Prata";
+	font-size: 30px;
+	font-weight: 400;
+}
+.card-price-items {
+	position: relative;
+}
+.card-btn {
+	padding-left: 0;
+	padding-right: 0;
+	width: 160px;
+}
+
+.card-descr-block {
+	background-color: #222222;
+	padding: 30px;
+	margin: 56px 0px 0px 0px;
+}
+.card-descr-items {
+	margin: 0px 0px 55px 0px;
+	display: flex;
+}
+.card-descr-items li {
+	margin: 0px 143px 0px 0px;
+}
+.card-descr-items li a {
+	color: #fdf5ea;
+	font-size: 18px;
+	line-height: 21px;
+	transition: all 0.3s;
+		padding: 0px 0px 6px 0px;
+		border-bottom: 1px solid transparent;
+}
+.card-descr-items li a:hover,
+.card-descr-items li.active a {
+	border-color: #e1a957;
+	color: #e1a957;
+}
+.card-descr-item {
+	display: flex;
+	margin: 0px 0px 33px 0px;
+}
+.card-descr-text {
+	width: 14%;
+}
+.card-descr-part {
+	width: 50%;
+}
+.tab-pane {
+	display: none;
+}
+.tab-pane:first-child {
+	display: block;
+}
+.card-descr-block .tabs-container {
+color: #fdf5ea;
+font-family: "SFUIDisplay-Light";
+font-size: 14px;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0.14px;
+}
+.card {
+	padding-bottom: 70px;
+}
+.card .content-page {
+	padding-bottom: 30px;
 }

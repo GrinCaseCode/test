@@ -257,6 +257,13 @@
 		margin: 0 auto;
 		margin-bottom: 15px;
 	}
+	.card-title {
+	margin-top: 25px;
+		text-align: left;
+	}
+	.card-img {
+		max-width: 700px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -342,8 +349,60 @@
     	font-size: 26px;
     	line-height: 32px;
     }
+    .card-descr-text {
+    width: 26%;
 }
-
+.card-descr-part {
+    width: 80%;
+}
+.card {
+	padding-bottom: 30px;
+}
+}
+@media only screen and (max-width : 576px) {
+.card-gramms-items {
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	display: inline-flex;
+}
+.card-gramms-items label {
+	margin: 0 15px;
+}
+.card-gramms-items label:first-of-type {
+	margin-left: 0;
+}
+.card-descr-items li {
+	display: block;
+	margin: 0;
+	margin-left: 15px;
+}
+.card-descr-items li:first-child {
+	margin-left: 0;
+}
+.card-descr-items li a {
+	font-size: 14px;
+	line-height: 21px;
+}
+.card-descr-item {
+	margin-bottom: 15px;
+	display: block;
+}
+.card-descr-text,
+.card-descr-part {
+	width: 100%;
+}
+.card-descr-block {
+    padding: 20px 15px;
+    margin: 30px 0px 0px 0px;
+}
+.card-price {
+	font-size: 22px;
+}
+.card-img {
+	height: 280px;
+}
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 .title-section {
