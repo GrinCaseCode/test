@@ -82,6 +82,41 @@ $(document).ready(function() {
 		]
 	});
 
+	 $('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  vertical: true,
+  verticalSwiping: true,
+  prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-up"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-down"></i><div/>',
+  focusOnSelect: true,
+  responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				vertical: false,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				vertical: false,
+				slidesToShow: 2,
+			}
+		}
+		]
+});
+		
+
 
 
 	//Попап менеджер FancyBox
