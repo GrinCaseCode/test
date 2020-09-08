@@ -183,6 +183,12 @@
 .list-sidebar {
     padding-top: 0;
 }
+.slider-nav .slick-dots {
+    right: -24px;
+}
+.slider-nav .slick-arrow {
+    right: -28px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -275,6 +281,49 @@
 	.col_center-contacts {
 		padding-left: 15px;
 	}
+	.slider-nav {
+		margin: 0 -10px;
+		margin-top: 20px;
+		padding-bottom: 30px;
+		max-width: inherit;
+	}
+	.slider-nav__item {
+		margin: 0 10px;
+	}
+	.slider-nav .slick-dots {
+		display: block;
+		height: auto;
+		width: 100%;
+		top: auto;
+		bottom: 0;
+		left: 0;
+	}
+	.slider-nav .slick-dots li {
+		margin: 0 10px;
+		display: inline-block;
+	}
+	.block-production {
+		padding: 20px;
+	}
+	.slider-nav .slick-arrow {
+		top: auto;
+		bottom: 0;
+		margin: auto;
+		left: 10px;
+		right: auto;
+		transform: rotate(-90deg);
+	}
+	.slider-nav .slick-next {
+		right: 10px;
+		left: auto;
+	}
+	.item-about {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.title-section.title-section_production {
+	padding-top: 60px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -374,6 +423,24 @@
 }
 .item-sertificat {
 	padding: 5px;
+}
+.slider-for__item {
+    height: 420px;
+    }
+    .slider-for__item_video::after {
+    	width: 150px;
+    	height: 150px;
+    }
+    .slider-for__item_video::before {
+    width: 22px;
+    height: 24px;
+    font-size: 24px;
+}
+.title-section.title-section_production {
+	padding-top: 30px;
+}
+.about {
+	padding-bottom: 30px;
 }
 }
 @media only screen and (max-width : 576px) {
@@ -563,6 +630,40 @@
 }
 .contacts {
 	padding-bottom: 30px;
+}
+.descr-section {
+	font-size: 14px;
+	line-height: 21px;
+}
+.title-section.title-section_production {
+    font-size: 23px;
+    line-height: 32px;
+}
+.block-production__title {
+    font-size: 19px;
+    line-height: 25px;
+    padding-bottom: 15px;
+    }
+    .block-production {
+    	padding: 15px;
+    }
+    .slider-for__item {
+    height: 300px;
+}
+.slider-for__item_video::after {
+	width: 100px;
+	height: 100px;
+}
+.slider-for__item_video::before {
+	    width: 16px;
+    height: 16px;
+    font-size: 16px;
+}
+.slider-nav__item {
+	height: 80px;
+}
+.modal-block iframe {
+	height: 200px;
 }
 }
 
