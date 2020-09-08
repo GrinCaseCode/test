@@ -2222,3 +2222,6 @@ width: 100%;
 .modal-block iframe {
 	max-width: 100%;
 }
+.slick-dots li button:before {
+	display: none !important;
+}
