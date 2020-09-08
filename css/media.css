@@ -264,6 +264,17 @@
 	.card-img {
 		max-width: 700px;
 	}
+	.contacts .block-form {
+		float: none;
+		margin: 0 auto;
+	}
+	.contacts__title_map {
+		margin-top: 20px;
+		text-align: center;
+	}
+	.col_center-contacts {
+		padding-left: 15px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -408,6 +419,15 @@
 .card-img {
 	height: 280px;
 }
+.contacts__title {
+	padding-top: 0;
+}
+.col_center-contacts {
+	padding-top: 20px;
+}
+.map-main {
+	height: 400px;
+}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -526,6 +546,23 @@
     }
     .feedback-text {
     max-height: 227px;
+}
+.item-contact {
+	margin-bottom: 25px;
+}
+.contacts__title {
+	font-size: 20px;
+	line-height: 26px;
+	padding-bottom: 15px;
+}
+.item-contact_right p {
+    margin-bottom: 15px;
+}
+.contacts .block-form {
+	padding: 30px 15px;
+}
+.contacts {
+	padding-bottom: 30px;
 }
 }
 
