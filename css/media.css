@@ -514,6 +514,9 @@
 	.menu-text {
 		padding: 0 28px;
 	}
+	.menu-block .sandwich {
+    padding-top: 6px;
+}
 }
 @media only screen and (max-width : 576px) {
 	.card-gramms-items {
